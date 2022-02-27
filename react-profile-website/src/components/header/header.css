@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 3rem;
   overflow: hidden;
 }
 .header__container {
@@ -19,6 +19,7 @@ header {
 .header__socials {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0.8rem;
   left: 0;
   position: absolute;
@@ -32,12 +33,12 @@ header {
 }
 
 .me {
-  background-color: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 16rem;
   height: 30rem;
   position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
+  left: calc(50% - 8rem);
+  margin-top: 3rem;
   border-radius: 12rem 12rem 0rem 0rem;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
@@ -52,9 +53,9 @@ header {
   font-size: 0.5rem;
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   header {
-    height: 68px;
+    height: 100vh;
   }
 }
 /* @media screen and (max-width: 800px) {
