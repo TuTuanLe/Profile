@@ -16,9 +16,11 @@
   border-color: var(--color-primary-variant);
   background: transparent;
 }
-.portfolio__item-image {
+.portfolio__item-image img {
   border-radius: 1.5rem;
-  overflow: hidden;
+
+
+  height: 200px;
 }
 .portfolio__item h3 {
   margin: 1.2rem 0 2rem;

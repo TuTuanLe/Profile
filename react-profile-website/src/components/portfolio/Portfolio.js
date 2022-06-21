@@ -3,6 +3,8 @@ import IMG01 from '../../assets/image/portfolio.jpg';
 import IMG02 from '../../assets/image/app_message.png';
 import IMG03 from '../../assets/image/social_media.png';
 import IMG04 from '../../assets/image/ecommerce.png';
+import IMG05 from '../../assets/image/meta-up.png';
+import IMG06 from '../../assets/image/profile.png';
 import './portfolio.css';
 const Portfolio = () => {
   return (
@@ -82,9 +84,9 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG01} alt=""></img>
+            <img src={IMG06} alt=""></img>
           </div>
-          <h3>This is Signal Clone React Native</h3>
+          <h3>Landing page meta-up </h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/TuTuanLe/Signal-clone-react-native"
@@ -105,7 +107,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG01} alt=""></img>
+            <img  src={IMG05} alt=""></img>
           </div>
           <h3>This is portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -122,25 +124,7 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG01} alt=""></img>
-          </div>
-          <h3>This is portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-              Github
-            </a>
 
-            <a
-              href="https://dribbble.com/Alien_pixels"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
       </div>
     </section>
   );

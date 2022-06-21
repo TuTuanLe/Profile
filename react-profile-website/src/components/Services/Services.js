@@ -14,12 +14,12 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>Figma</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>Photoshop.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
