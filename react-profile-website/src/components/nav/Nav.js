@@ -8,7 +8,7 @@ import { AiOutlinePicCenter } from 'react-icons/ai';
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
   return (
-    <nav>
+    <nav className="nav_nav">
       <a
         href="#"
         className={activeNav === '#' ? 'active' : ''}

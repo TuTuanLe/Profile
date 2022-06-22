@@ -6,16 +6,17 @@ import Footer from './components/footer/Footer';
 import Nav from './components/nav/Nav';
 import Services from './components/Services/Services';
 import Portfolio from './components/portfolio/Portfolio';
+import Navbar from './components/navbar';
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Header />
       <Nav />
       <About />
       <Experience />
       <Services />
       <Portfolio />
-
       <Contact />
       <Footer />
     </div>

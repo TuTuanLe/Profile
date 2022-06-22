@@ -5,6 +5,7 @@ import IMG03 from '../../assets/image/social_media.png';
 import IMG04 from '../../assets/image/ecommerce.png';
 import IMG05 from '../../assets/image/meta-up.png';
 import IMG06 from '../../assets/image/profile.png';
+import IMG07 from '../../assets/image/app-chat-android.png';
 import './portfolio.css';
 const Portfolio = () => {
   return (
@@ -86,7 +87,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG06} alt=""></img>
           </div>
-          <h3>Landing page meta-up </h3>
+          <h3> This is portfolio item title  </h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/TuTuanLe/Signal-clone-react-native"
@@ -97,7 +98,7 @@ const Portfolio = () => {
             </a>
 
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://meta-up.com/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -109,18 +110,38 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img  src={IMG05} alt=""></img>
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Landing page meta-up</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
+            <a   href="https://meta-up.com/" className="btn" target="_blank">
               Github
             </a>
 
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://meta-up.com/"
               className="btn btn-primary"
               target="_blank"
             >
               Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img  src={IMG07} alt=""></img>
+          </div>
+          <h3>Chat app android</h3>
+          <div className="portfolio__item-cta">
+            <a   href="https://github.com/TuTuanLe/Chat-app" className="btn" target="_blank">
+              Github
+            </a>
+
+            <a
+              href="https://meta-up.com/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Link Youtube
             </a>
           </div>
         </article>
