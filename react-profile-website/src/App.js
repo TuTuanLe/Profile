@@ -7,6 +7,7 @@ import Nav from './components/nav/Nav';
 import Services from './components/Services/Services';
 import Portfolio from './components/portfolio/Portfolio';
 import Navbar from './components/navbar';
+import Card from './components/card';
 function App() {
   return (
     <div className="App">
@@ -15,8 +16,9 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      <Services />
       <Portfolio />
+      <Services />
+
       <Contact />
       <Footer />
     </div>

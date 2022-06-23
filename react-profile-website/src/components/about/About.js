@@ -27,7 +27,7 @@ const About = () => {
             <article className="about__card">
               <FiUser className="about__icon" />
               <h5>Graduate</h5>
-              <small>UIT University Of Information Technology  </small>
+              <small>UIT University Of Information Technology </small>
             </article>
 
             <article className="about__card">
@@ -37,7 +37,10 @@ const About = () => {
             </article>
           </div>
 
-          <div className="about__content">
+          <div
+            className="about__content"
+            style={{ marginTop: 10, marginBottom: 10 }}
+          >
             <p>
               My goal is to be associated with a company where I can use my
               skills and gain more experience, new skills while improving

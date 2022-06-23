@@ -5,14 +5,17 @@ import { FiDribbble } from 'react-icons/fi';
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
+      <p style={{ writingMode: 'vertical-rl', color: 'blue' }}>
+        Follow me -----
+      </p>
       <a href="https://linkedin.com" target="_blank">
-        <BsLinkedin />
+        <BsLinkedin className="icon__social" />
       </a>
       <a href="https://github.com" target="_blank">
-        <FaGithub />
+        <FaGithub className="icon__social" />
       </a>
       <a href="https://dribbble.com" target="_blank">
-        <FiDribbble />
+        <FiDribbble className="icon__social" />
       </a>
     </div>
   );

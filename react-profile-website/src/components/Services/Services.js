@@ -23,15 +23,11 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>Adobe XD.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>Marvel.</p>
             </li>
           </ul>
         </article>
@@ -43,24 +39,20 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>Html, CSS, Javascript</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>TypeScript.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>React JS, Redux.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>.....</p>
             </li>
           </ul>
         </article>
@@ -71,24 +63,20 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>Get Api Link Youtube Chat App</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>Share Positive Statistics.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>Create content youtube.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem , ipsum dolor sit amet consecterur elit.</p>
+              <p>Write attractive and neat captions.</p>
             </li>
           </ul>
         </article>
