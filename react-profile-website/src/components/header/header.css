@@ -10,8 +10,6 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
-  background-image: url('../../assets/image/5291450.jpg');
-  /* background-size: 1000px 600px; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

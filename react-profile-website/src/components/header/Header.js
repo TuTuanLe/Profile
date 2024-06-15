@@ -1,9 +1,9 @@
-/* eslint-disable jsx-a11y/no-distracting-elements */
 import React from 'react';
-import './header.css';
-import CTA from './CTA';
 import ME from '../../assets/image/avatar.png';
+import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
+import './header.css';
+
 const Header = () => {
   return (
     <header>

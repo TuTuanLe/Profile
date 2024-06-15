@@ -3,7 +3,7 @@ import CV from '../../assets/CV/LeTuTuan_CV.pdf';
 const CTA = () => {
   return (
     <div className="cta">
-      <a href="#contact" className="btn btn-primary">
+      <a href="#contact" className="btn btn-primary bg-red">
         Let's Talk
       </a>
       <a href={CV} download className="btn">

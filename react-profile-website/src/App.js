@@ -1,13 +1,13 @@
-import Header from './components/header/Header';
-import About from './components/about/About';
-import Experience from './components/experience/Experience';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
-import Nav from './components/nav/Nav';
 import Services from './components/Services/Services';
-import Portfolio from './components/portfolio/Portfolio';
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
+import Experience from './components/experience/Experience';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Nav from './components/nav/Nav';
 import Navbar from './components/navbar';
-import Card from './components/card';
+import Portfolio from './components/portfolio/Portfolio';
+
 function App() {
   return (
     <div className="App">
@@ -18,7 +18,6 @@ function App() {
       <Experience />
       <Portfolio />
       <Services />
-
       <Contact />
       <Footer />
     </div>
