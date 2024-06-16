@@ -8,7 +8,7 @@ import { Hero } from './components/hero';
 import Nav from './components/nav/Nav';
 import Navbar from './components/navbar';
 import Portfolio from './components/portfolio/Portfolio';
-import Services from './components/services/Services';
+import Services from './components/services1/Services';
 
 function App() {
   return (
