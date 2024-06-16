@@ -69,6 +69,7 @@ header {
 }
 .header__socials {
   margin-left: 1rem;
+  position: fixed;
 }
 .icon__social {
   width: 30px;

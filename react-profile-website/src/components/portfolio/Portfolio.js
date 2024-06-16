@@ -1,11 +1,12 @@
 import React from 'react';
-import IMG01 from '../../assets/image/portfolio.jpg';
+import IMG07 from '../../assets/image/app-chat-android.png';
 import IMG02 from '../../assets/image/app_message.png';
-import IMG03 from '../../assets/image/social_media.png';
 import IMG04 from '../../assets/image/ecommerce.png';
 import IMG05 from '../../assets/image/meta-up.png';
+import IMG01 from '../../assets/image/pencusto.png';
 import IMG06 from '../../assets/image/profile.png';
-import IMG07 from '../../assets/image/app-chat-android.png';
+import IMG03 from '../../assets/image/social_media.png';
+
 import './portfolio.css';
 const Portfolio = () => {
   return (
@@ -14,6 +15,40 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <div className="portfolio__item-image">
+            <img src={IMG01} alt=""></img>
+            <div className="content">
+              <div className="show__title">
+                <marquee direction="left" alternate="alternate">
+                  This is Landing page meta-up(KOREA)
+                </marquee>
+              </div>
+              <div className="portfolio__item-cta">
+                <a
+                  href="https://github.com/Enigma-Laboratory/money-keeper"
+                  className="btn"
+                  target="_blank"
+                >
+                  Github
+                </a>
+
+                <a
+                  href="https://pencusto-dev.netlify.app/"
+                  className="btn btn-primary"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
         <article className="portfolio__item">
           <span></span>
           <span></span>

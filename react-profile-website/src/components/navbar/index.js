@@ -22,17 +22,23 @@ function Navbar() {
       <a href="">Tu Tuan Le</a>
       <ul className={'hidden md:flex z-10 gap-12 cursor-pointer'}>
         <li className={'relative group'}>
-          <Link to={'/about'}>About</Link>
+          <a href={'#about'} className="text-xl text-white">
+            About
+          </a>
           <span className="absolute bottom-0 left-0 w-full h-1 bg-sky-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
         </li>
 
         <li className={'relative group'}>
-          <Link to={'/portfolio'}>Portfolio</Link>
+          <a href={'#portfolio'} className="text-xl text-white">
+            Portfolio
+          </a>
           <span className="absolute bottom-0 left-0 w-full h-1 bg-sky-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
         </li>
 
         <li className={'relative group'}>
-          <Link to={'/contact'}>Contact</Link>
+          <a href="#contact" className="text-xl text-white">
+            Contact
+          </a>
           <span className="absolute bottom-0 left-0 w-full h-1 bg-sky-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
         </li>
       </ul>

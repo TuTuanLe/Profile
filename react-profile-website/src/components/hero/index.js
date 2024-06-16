@@ -5,7 +5,7 @@ import { ShinyEffect } from '../shinyEffect';
 
 export const Hero = () => {
   return (
-    <div className="grid md:grid-cols-2 place-items-center max-w-[1250px] mx-auto mb-8 md:mb-32 mt-14">
+    <div className="grid md:grid-cols-2 place-items-center max-w-[1250px] min-h-[800px] mx-auto mb-8 md:mb-32 mt-14">
       <div className="max-w-[800px]">
         <p className="text-gray-200 md:text-6xl text-3xl tracking-tight">
           HEY , I AM <br /> <span>LE TU TUAN</span>
@@ -41,8 +41,12 @@ export const Hero = () => {
           </button>
         </div>
       </div>
-      <ShinyEffect left={100} top={200} size={1600} />
-      {/* <img src={profilePic} className="w-[300px] md:w-[500px]" /> */}
+      <div className="absolute inset-0">
+        <div className="hidden md:block">
+          <ShinyEffect left={50} top={70} size={1200} />
+        </div>
+        <ShinyEffect left={-100} top={0} size={1200} />
+      </div>
       <div className="bg-gradient-to-b from-[#4db5ff] to-transparent w-72 h-120    mt-12 rounded-t-full overflow-hidden p-20 px-6">
         <img src={profilePic} alt="me" />
       </div>
